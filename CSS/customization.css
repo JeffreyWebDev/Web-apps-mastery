@@ -1,0 +1,84 @@
+
+/* customization section start ****************************/
+.customization {
+    height: 800vh;
+    position: relative;
+    margin-top: 4rem;
+    background: rgba(236, 7, 7, 0.223) !important;
+}
+
+section.customization .holder {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+section.customization video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.content-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+
+.content-container .content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    section.customization video {
+        height: 120vh;
+        object-fit: cover;
+    }
+
+    .content-container {
+        text-align: center;
+    }
+
+    .content-container .content {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .content-container .content h1 {
+        font-size: 2rem;
+    }
+
+    .content-container .content p {
+        font-size: 1rem;
+    }
+
+    .content-container .content .main-heading {
+        font-size: 23px;
+    }
+
+    .content-container .content .primary-heading {
+        font-size: 9px;
+        max-width: 180px;
+        line-height: 15px;
+    }
+}
+/* customization section end ****************************/
+
+
+
+
+
+
+
+
+
+
+
+
+

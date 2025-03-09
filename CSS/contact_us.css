@@ -1,0 +1,135 @@
+/* contact us section starts ***************************************/
+
+.contact-container {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(48px);
+    border-radius: 8px;
+    /* border: 1px solid #444; */
+}
+
+.contact-container h1 {
+    text-align: center;
+}
+
+.contact-container p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.info-item {
+    flex: 1;
+    /* padding: 5px; */
+    text-align: center;
+}
+
+.info-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.info-item h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    top: -20px;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* Responsiveness******
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .contact-container {
+        max-width: 90%; /* Allow more width on smaller screens */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .contact-info {
+        flex-direction: column; /* Stack contact info items */
+        align-items: center; /* Center items */
+    }
+
+    .info-item {
+        margin-bottom: 15px; /* Add margin for spacing */
+    }
+
+    .contact-form input, 
+    .contact-form textarea {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .contact-form button {
+        font-size: 14px; /* Adjust button font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-container {
+        max-width: 95%; /* Full width on very small screens */
+        margin: 10px auto; /* Reduce margin */
+    }
+
+    .contact-form input, 
+    .contact-form textarea {
+        padding: 8px; /* Reduce padding */
+        font-size: 12px; /* Smaller font size */
+    }
+
+    .contact-form button {
+        padding: 8px; /* Reduce button padding */
+        font-size: 12px; /* Smaller button font size */
+    }
+
+    .contact-container h1 {
+        font-size: 1.5rem; /* Adjust heading size */
+    }
+
+    .contact-container p {
+        font-size: 14px; /* Adjust paragraph size */
+    }
+}
+/* contact us section ends ***************************************/
+

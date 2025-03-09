@@ -1,0 +1,500 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Lounge Chairs",
+        "products": [
+          {
+            "id": 1,
+            "name": "Modway Engage Lounge Chair",
+            "price": 200,
+            "description": "A mid-century modern lounge chair with a sophisticated design, offering luxurious comfort for your living room or office.",
+            "image": "images/bestProduct3.png"
+          },
+          {
+            "id": 2,
+            "name": "Zinus Josh Lounge Chair",
+            "price": 300,
+            "description": "A cozy and contemporary lounge chair, crafted for durability and comfort, perfect for relaxing after a long day.",
+            "image": "images/bestProduct.png"
+          },
+          {
+            "id": 3,
+            "name": "Christopher Knight Teague Chair",
+            "price": 350,
+            "description": "Elegant and comfortable, this tufted backrest lounge chair is perfect for classic or modern interiors.",
+            "image": "images/bestProduct4.png"
+          },
+          {
+            "id": 4,
+            "name": "Rivet Aiden Tufted Chair",
+            "price": 400,
+            "description": "A sophisticated lounge chair with a button-tufted back, wide armrests, and soft cushions for ultimate relaxation.",
+            "image": "images/bestProduct3.png"
+          },
+          {
+            "id": 5,
+            "name": "Stone & Beam Lauren Chair",
+            "price": 250,
+            "description": "A stylish, overstuffed lounge chair that offers excellent support and comfort for any room in the house.",
+            "image": "images/bestProduct4.png"
+          },
+          {
+            "id": 6,
+            "name": "Floyd Accent Lounge Chair",
+            "price": 190,
+            "description": "A minimalist lounge chair with a sleek, modern design and a focus on ergonomics and functionality.",
+            "image": "images/bestProduct.png"
+          },
+          {
+            "id": 7,
+            "name": "UrbanMod Classic Lounge Chair",
+            "price": 230,
+            "description": "A timeless design featuring soft fabric and a sturdy frame, making it an ideal addition to any home.",
+            "image": "images/bestProduct3.png"
+          },
+          {
+            "id": 8,
+            "name": "JOYBASE Mid-Century Lounge Chair",
+            "price": 270,
+            "description": "Inspired by the mid-century modern aesthetic, this lounge chair combines style and comfort for any living space.",
+            "image": "images/bestProduct4.png"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Dining And Kitchen Seating",
+        "products": [
+          {
+            "id": 9,
+            "name": "CozyCreek Dining Chair Set",
+            "price": 150,
+            "description": "A set of 2 rustic dining chairs made from solid wood, offering both charm and durability.",
+            "image": "images/dining_chair1.png"
+          },
+          {
+            "id": 10,
+            "name": "Modway Casper Dining Chair",
+            "price": 180,
+            "description": "An iconic, modern dining chair made from transparent acrylic, blending elegance and simplicity.",
+            "image": "images/dining_chair2.png"
+          },
+          {
+            "id": 11,
+            "name": "Christopher Knight Aria Dining Chair",
+            "price": 250,
+            "description": "Upholstered with premium fabric, this chair brings sophistication and comfort to your dining room.",
+            "image": "images/dining_chair1.png"
+          },
+          {
+            "id": 12,
+            "name": "Duhome Velvet Dining Chairs",
+            "price": 200,
+            "description": "A set of 4 velvet-upholstered chairs with a sleek, gold-finished metal base for a glamorous look.",
+            "image": "images/dining_chair2.png"
+          },
+          {
+            "id": 13,
+            "name": "Boraam Augusta Swivel Chair",
+            "price": 220,
+            "description": "Classic bar-height swivel chairs made of hardwood with faux-leather seats, ideal for kitchen counters.",
+            "image": "images/dining_chair1.png"
+          },
+          {
+            "id": 14,
+            "name": "Winsome Wood Counter Stool",
+            "price": 110,
+            "description": "Simple and functional, this counter stool fits perfectly into any modern kitchen space.",
+            "image": "images/dining_chair2.png"
+          },
+          {
+            "id": 15,
+            "name": "CangLong Dining Chairs",
+            "price": 160,
+            "description": "Modern ergonomic dining chairs featuring a plastic shell seat and sturdy wooden legs.",
+            "image": "images/dining_chair1.png"
+          },
+          {
+            "id": 16,
+            "name": "Furmax Metal Dining Chairs",
+            "price": 190,
+            "description": "Industrial-style metal dining chairs with a vintage finish, perfect for kitchens or cafes.",
+            "image": "images/dining_chair2.png"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Office Chairs",
+        "products": [
+          {
+            "id": 17,
+            "name": "Herman Miller Aeron Chair",
+            "price": 1200,
+            "description": "A high-end ergonomic office chair with superior comfort and adjustability for long work hours.",
+            "image": "images/office_chair1.png"
+          },
+          {
+            "id": 18,
+            "name": "Steelcase Leap V2 Chair",
+            "price": 850,
+            "description": "A versatile office chair with dynamic support for various sitting postures, ensuring optimal productivity.",
+            "image": "images/office_chair2.png"
+          },
+          {
+            "id": 19,
+            "name": "Duramont Ergonomic Chair",
+            "price": 400,
+            "description": "Fully adjustable with lumbar support, this chair provides a budget-friendly ergonomic solution.",
+            "image": "images/office_chair1.png"
+          },
+          {
+            "id": 20,
+            "name": "NOUHAUS Ergo3D Chair",
+            "price": 500,
+            "description": "A modern office chair with 3D adjustable armrests and breathable mesh for all-day comfort.",
+            "image": "images/office_chair2.png"
+          },
+          {
+            "id": 21,
+            "name": "Flash Furniture Executive Chair",
+            "price": 300,
+            "description": "A leather executive chair with ample padding and a stylish look for professional spaces.",
+            "image": "images/office_chair1.png"
+          },
+          {
+            "id": 22,
+            "name": "SIHOO Ergonomic Office Chair",
+            "price": 450,
+            "description": "An ergonomic mesh chair with adjustable lumbar support and a sleek design for home offices.",
+            "image": "images/office_chair2.png"
+          },
+          {
+            "id": 23,
+            "name": "Hbada Reclining Office Chair",
+            "price": 380,
+            "description": "A reclining office chair with a retractable footrest and high back for added relaxation.",
+            "image": "images/office_chair1.png"
+          },
+          {
+            "id": 24,
+            "name": "OFM ESS Leather Office Chair",
+            "price": 250,
+            "description": "An affordable office chair with soft leather upholstery and supportive cushioning.",
+            "image": "images/office_chair2.png"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Children's Chairs",
+        "products": [
+          {
+            "id": 25,
+            "name": "Kids' Lounge Chair",
+            "price": 120,
+            "description": "A fun and colorful lounge chair perfect for children, offering comfort and support while they play or read.",
+            "image": "images/children_chair1.png"
+          },
+          {
+            "id": 26,
+            "name": "Wooden Rocking Chair for Kids",
+            "price": 85,
+            "description": "A sturdy wooden rocking chair designed for kids, promoting relaxation and playtime.",
+            "image": "images/children_chair2.png"
+          },
+          {
+            "id": 27,
+            "name": "Adjustable Kids' Desk Chair",
+            "price": 95,
+            "description": "A chair that grows with your child, featuring an adjustable seat and backrest to support good posture.",
+            "image": "images/children_chair1.png"
+          },
+          {
+            "id": 28,
+            "name": "Fun Bear-Shaped Chair",
+            "price": 100,
+            "description": "A playful and comfy chair designed to resemble a bear, perfect for younger children.",
+            "image": "images/children_chair2.png"
+          },
+          {
+            "id": 29,
+            "name": "Kids' Bean Bag Chair",
+            "price": 50,
+            "description": "A lightweight and portable bean bag chair for children, available in multiple fun colors.",
+            "image": "images/children_chair1.png"
+          },
+          {
+            "id": 30,
+            "name": "Plastic Kids Chair",
+            "price": 40,
+            "description": "A durable plastic chair designed for young children, easy to clean and perfect for play areas.",
+            "image": "images/children_chair2.png"
+          },
+          {
+            "id": 31,
+            "name": "Disney-Themed Kids Chair",
+            "price": 80,
+            "description": "A chair with fun Disney character designs, perfect for creating a magical space for kids.",
+            "image": "images/children_chair1.png"
+          },
+          {
+            "id": 32,
+            "name": "Foldable Kids Chair",
+            "price": 25,
+            "description": "A foldable, portable chair designed for kids, great for picnics, camping, and outdoor activities.",
+            "image": "images/children_chair2.png"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Outdoor Chairs",
+        "products": [
+          {
+            "id": 33,
+            "name": "Zero Gravity Lounge Chair",
+            "price": 150,
+            "description": "A reclining outdoor chair perfect for lounging in your garden or patio, designed to relieve pressure on the back.",
+            "image": "images/outdoor_chair1.png"
+          },
+          {
+            "id": 34,
+            "name": "Patio Recliner Chair",
+            "price": 180,
+            "description": "A comfortable and adjustable recliner chair for relaxing in the sun or on the porch.",
+            "image": "images/outdoor_chair2.png"
+          },
+          {
+            "id": 35,
+            "name": "Folding Camping Chair",
+            "price": 40,
+            "description": "A lightweight and compact folding chair, ideal for camping, picnics, or outdoor concerts.",
+            "image": "images/outdoor_chair1.png"
+          },
+          {
+            "id": 36,
+            "name": "Adirondack Lounge Chair",
+            "price": 220,
+            "description": "A classic and stylish lounge chair for outdoor use, made from durable wood for a timeless look.",
+            "image": "images/outdoor_chair2.png"
+          },
+          {
+            "id": 37,
+            "name": "Mesh Lounge Chair",
+            "price": 130,
+            "description": "An outdoor chair with a breathable mesh seat and back, perfect for relaxing by the pool or beach.",
+            "image": "images/outdoor_chair1.png"
+          },
+          {
+            "id": 38,
+            "name": "Rocking Chair for Porch",
+            "price": 160,
+            "description": "A charming outdoor rocking chair that adds comfort and style to your porch or patio.",
+            "image": "images/outdoor_chair2.png"
+          },
+          {
+            "id": 39,
+            "name": "Reclining Folding Chair",
+            "price": 70,
+            "description": "A folding chair with reclining features, designed for outdoor relaxation and easy portability.",
+            "image": "images/outdoor_chair1.png"
+          },
+          {
+            "id": 40,
+            "name": "Camping Chair with Cup Holder",
+            "price": 45,
+            "description": "A practical camping chair with a built-in cup holder and a comfortable design.",
+            "image": "images/outdoor_chair2.png"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Armchairs",
+        "products": [
+          {
+            "id": 41,
+            "name": "Leather Armchair",
+            "price": 350,
+            "description": "A luxurious leather armchair with soft cushioning and a sleek design.",
+            "image": "images/armchair1.png"
+          },
+          {
+            "id": 42,
+            "name": "Sofabed Armchair",
+            "price": 450,
+            "description": "A dual-purpose armchair that doubles as a comfortable bed for guests.",
+            "image": "images/armchair2.png"
+          },
+          {
+            "id": 43,
+            "name": "Scandi Armchair",
+            "price": 300,
+            "description": "A minimalist Scandinavian armchair with clean lines and neutral tones, perfect for any modern living space.",
+            "image": "images/armchair1.png"
+          },
+          {
+            "id": 44,
+            "name": "Club Armchair",
+            "price": 500,
+            "description": "A plush armchair with soft upholstery, perfect for creating a cozy reading nook or sitting area.",
+            "image": "images/armchair2.png"
+          },
+          {
+            "id": 45,
+            "name": "Swivel Armchair",
+            "price": 270,
+            "description": "An ergonomic armchair that swivels for ease of movement while you relax or work.",
+            "image": "images/armchair1.png"
+          },
+          {
+            "id": 46,
+            "name": "Tuxedo Armchair",
+            "price": 380,
+            "description": "A sophisticated tuxedo armchair with high arms and a clean, structured silhouette.",
+            "image": "images/armchair2.png"
+          },
+          {
+            "id": 47,
+            "name": "Accent Armchair",
+            "price": 220,
+            "description": "A stylish accent armchair with tufted details and soft, comfortable cushions.",
+            "image": "images/armchair1.png"
+          },
+          {
+            "id": 48,
+            "name": "Reclining Armchair",
+            "price": 400,
+            "description": "A reclining armchair that offers exceptional comfort with adjustable angles for personalized relaxation.",
+            "image": "images/armchair2.png"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Recliners",
+        "products": [
+          {
+            "id": 49,
+            "name": "La-Z-Boy Recliner",
+            "price": 800,
+            "description": "A high-end reclining chair from La-Z-Boy, known for its comfort, durability, and luxurious features.",
+            "image": "images/recliner1.png"
+          },
+          {
+            "id": 50,
+            "name": "Relaxer Recliner",
+            "price": 600,
+            "description": "A sleek, modern recliner that offers smooth reclining action with plush cushioning for ultimate comfort.",
+            "image": "images/recliner3.png"
+          },
+          {
+            "id": 51,
+            "name": "Manual Recliner",
+            "price": 250,
+            "description": "A manual reclining chair designed for simplicity, offering comfortable rest with adjustable positions.",
+            "image": "images/recliner1.png"
+          },
+          {
+            "id": 52,
+            "name": "Electric Recliner",
+            "price": 900,
+            "description": "An electric recliner chair with power lift and reclining features for maximum comfort and accessibility.",
+            "image": "images/recliner3.png"
+          },
+          {
+            "id": 53,
+            "name": "Massage Recliner",
+            "price": 1100,
+            "description": "A recliner chair that integrates massage features to soothe tired muscles and provide relaxation.",
+            "image": "images/recliner1.png"
+          },
+          {
+            "id": 54,
+            "name": "Compact Recliner",
+            "price": 350,
+            "description": "A space-saving recliner that provides comfort without taking up too much room in smaller living spaces.",
+            "image": "images/recliner3.png"
+          },
+          {
+            "id": 55,
+            "name": "Power Recliner",
+            "price": 850,
+            "description": "A luxurious power recliner chair with adjustable footrest and backrest, designed for ultimate comfort.",
+            "image": "images/recliner1.png"
+          },
+          {
+            "id": 56,
+            "name": "Rocking Recliner",
+            "price": 700,
+            "description": "A combination of a rocking chair and a recliner, perfect for relaxation and comfort.",
+            "image": "images/recliner3.png"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Swivel Chairs",
+        "products": [
+          {
+            "id": 57,
+            "name": "Ergonomic Swivel Chair",
+            "price": 250,
+            "description": "An ergonomic swivel chair designed for office use, offering superior support and comfort.",
+            "image": "images/swivel_chair1.png"
+          },
+          {
+            "id": 58,
+            "name": "Faux Leather Swivel Chair",
+            "price": 180,
+            "description": "A stylish faux leather swivel chair with adjustable height and comfortable padding for all-day use.",
+            "image": "images/swivel_chair2.png"
+          },
+          {
+            "id": 59,
+            "name": "Mesh Swivel Chair",
+            "price": 220,
+            "description": "A breathable mesh swivel chair that promotes good posture and airflow while working or studying.",
+            "image": "images/swivel_chair1.png"
+          },
+          {
+            "id": 60,
+            "name": "Modern Swivel Chair",
+            "price": 280,
+            "description": "A sleek, modern swivel chair perfect for contemporary office or home spaces.",
+            "image": "images/swivel_chair2.png"
+          },
+          {
+            "id": 61,
+            "name": "High Back Swivel Chair",
+            "price": 350,
+            "description": "A high-back swivel chair designed to provide neck and lumbar support during long hours of sitting.",
+            "image": "images/swivel_chair1.png"
+          },
+          {
+            "id": 62,
+            "name": "Gaming Swivel Chair",
+            "price": 400,
+            "description": "A gaming chair designed for comfort and performance, with adjustable features and enhanced support.",
+            "image": "images/swivel_chair2.png"
+          },
+          {
+            "id": 63,
+            "name": "Revolving Swivel Chair",
+            "price": 220,
+            "description": "A revolving swivel chair with smooth rotation and height adjustability for flexible use.",
+            "image": "images/swivel_chair1.png"
+          },
+          {
+            "id": 64,
+            "name": "Office Swivel Chair",
+            "price": 180,
+            "description": "A simple office swivel chair with padded seat and back for comfort during work.",
+            "image": "images/swivel_chair2.png"
+          }
+        ]
+      }
+    ]
+}  

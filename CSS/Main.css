@@ -1,0 +1,13 @@
+/* This is where I'm gonna import all the css files */
+@import 'about_us.css';
+@import 'cartTab.css';
+@import 'checkout.css';
+@import 'contact_us.css';
+@import 'customization.css';
+@import 'detail.css';
+@import 'footer.css';
+@import 'main_header.css';
+@import 'product_container.css';
+@import 'product_video.css';
+@import 'slider_caroussel.css';
+@import 'testimonials.css';

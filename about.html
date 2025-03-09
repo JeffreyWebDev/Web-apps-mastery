@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/09050a93e1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/Main.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Jeffrey Furnishings</title>
+</head>
+<body>
+    <!-- Entire header starts -->
+    <div class="main_header">
+        <video autoplay muted loop class="back_video" >
+            <source src="videos/videoHeader1 - Trim.mp4">
+        </video>
+
+        <!--Nav starts-->
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/JF_2.png" alt="Website's logo"></a>
+                <span>JeffreyFurnishings</span>
+            </div>
+            <div class="nav-menu" id="mainMenu">
+                <div class="main-menu">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <a href="product.html" class="btn-fill">Shop Now</a>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <!--Nav end-->
+    
+        <!----Header starts----->
+        <header>
+            <h1 class="main-heading second-heading">
+                About us.
+            </h1>
+        </header>
+        <!----Header ends-->
+    </div>
+        
+    <!-- Entire header ends -->
+    <section class="about-us-section">
+        <div class="about-container">
+            <h2>Our Story</h2>
+            <p>Jeffrey Furnishings was founded with a passion for creating premium chairs that combine comfort, style, and durability. Over the years, we have earned a reputation as a trusted name in furniture, delivering unique designs that cater to diverse tastes and needs.</p>
+        </div>
+    </section>
+
+    <section class="mission-vision">
+        <div class="about-container">
+            <div class="mission">
+                <h3>Our Mission</h3>
+                <p>To design and produce high-quality chairs that enrich the lives of our customers while promoting sustainability and innovation in furniture manufacturing.</p>
+            </div>
+            <div class="vision">
+                <h3>Our Vision</h3>
+                <p>To become the global leader in premium furniture by blending modern aesthetics with timeless functionality.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-highlights">
+        <div class="about-container">
+            <h2>Why Choose Us</h2>
+            <ul>
+                <li><i class="fas fa-check-circle"></i> Wide range of premium chairs for every need.</li>
+                <li><i class="fas fa-check-circle"></i> Sustainable materials and eco-friendly practices.</li>
+                <li><i class="fas fa-check-circle"></i> Expert craftsmanship with attention to detail.</li>
+                <li><i class="fas fa-check-circle"></i> Exceptional customer service and support.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-flex">
+            <div class="logo footer-logo">
+                <img src="images/JF_2.png" alt="">
+                <span>JeffreyFurnishings</span>
+            </div>
+            <div class="about-company">
+                <div class="company_container">
+                    <h1>About</h1>
+                    <p>News & Blog</p>
+                    <p>Features</p>
+                    <p>About US</p>
+                </div>
+                <div class="company_container">
+                    <h1>Company</h1>
+                    <p>How We Work</p>
+                    <p>Capital</p>
+                    <p>Security</p>
+                </div>
+                <div class="company_container"> 
+                    <h1>Support</h1>
+                    <p>FAQs</p>
+                    <p>Capital</p>
+                    <p>Contatc Us</p>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 JeffreyFurnishings. All Rights Reserved.</p>
+            <p>Designed by Jeffrey Faray.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="JS/carousel.js"></script>
+    <script src="JS/scroll_reveal.js"></script>
+    <script src="JS/video_scroll.js"></script>
+
+    <script>
+        const mainMenu = document.getElementById("mainMenu");
+
+        function showMenu() {   
+            mainMenu.style.left = "0";
+        }
+
+        function hideMenu() {   
+            mainMenu.style.left = "100%";
+        }
+    </script>
+</body>
+</html>

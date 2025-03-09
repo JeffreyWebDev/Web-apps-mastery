@@ -1,0 +1,138 @@
+
+/* detail section start*********************************************/
+
+.detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .detail {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+.detail .image img {
+    width: 90%;
+    filter: drop-shadow(2px 4px 20px #333);
+    transform: translateY(-65px);
+}
+
+.detail .image {
+    position: relative;
+}
+/* 
+.detail .image::before {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    content: "";
+    background-color: #94817733;
+    z-index: -1;
+    border-radius: 190px 120px 140px 149px;
+    left: calc(50% - 150px);
+    top: 50px;
+} */
+
+.detail .name {
+    font-size: xxx-large;
+    padding: 40px 0 0 0;
+    margin: 0 0 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .detail .name {
+        font-size: xx-large;
+    }
+}
+
+.detail .price {
+    font-weight: bold;
+    font-size: x-large;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.detail .buttons button {
+    background-color: #eee;
+    border: none;
+    padding: 14px 20px;
+    font-family: Poppins;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.detail svg {
+    width: 30px;
+    transform: translateY(-2px);
+}
+
+.detail .buttons button:nth-child(2) {
+    margin: 0 0 10px 7px;
+    background-color: #000;
+    color: #eee;
+    display: inline-flex;
+    gap: 12px;
+    box-shadow: 0 8px 10px #353432;
+    padding: 12px 17px;
+    cursor: pointer;
+}
+
+.detail .description {
+    font-weight: 300;
+    margin-top: 15px;
+    max-width: 600px;
+}
+
+/* Related Products section */
+.listProductDetail .item img {
+    width: 90%;
+    filter: drop-shadow(10px 30px 20px #0009);
+}
+
+.listProductDetail {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .listProductDetail {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.listProductDetail .item {
+    background-color: #dfdfd481;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.listProductDetail .item h2 {
+    font-weight: 500;
+    font-size: large;
+}
+
+
+.listProductDetail .item .price {
+    letter-spacing: 7px;
+    font-size: small;
+}
+
+
+.listProductDetail .item button {
+    background-color: #000;
+    color: #eee;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* detail section end *************************************************/
+
+

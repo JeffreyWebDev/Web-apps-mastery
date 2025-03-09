@@ -1,0 +1,130 @@
+
+/*footer starts*/
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    margin-top: 5rem;
+    background: linear-gradient(to bottom,rgba(133, 117, 108, 0.537), rgba(49, 41, 41, 0.886) 71%);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    transition: 0.5s;
+    overflow-x: hidden;
+}
+
+footer .footer-flex {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer .logo {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1.4rem;
+}
+
+footer .logo span{
+    transform: translateY(60px); 
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+footer .logo img {
+    width: 180px;
+    height: 180px;
+    color: #fff;
+}
+
+footer .about-company {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: unsafe center;
+}
+
+footer .about-company .company_container {
+    margin-right: 40px;
+}
+
+.about-company .company_container h1{
+    margin-bottom: 20px;
+}
+
+footer .copyright {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    footer {
+        height:90vh;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    footer .about-company {
+        margin-top: 5rem;
+        flex-direction: column;
+        text-align: left;
+        transform: translateY(-55px);
+    }
+
+    footer .about-company .company_container {
+        margin-right: 0;
+        margin-bottom: 10px;
+        text-align: left;
+        border-bottom: 1px solid white;
+        width: 100%;
+    }
+
+    footer .logo img{
+        transform: translateX(-53px);
+        width: 95px !important;
+        height: 95px !important;
+    }
+
+    footer .logo{
+        justify-content: flex-start;
+        margin-right: 0;
+        width: 30%;
+    }
+
+    footer .logo span {
+        text-align: left;
+        position: relative;  
+        left: -60px;
+        top: -28px;  
+        font-size: 12px;   
+    }
+
+        
+    footer .footer-flex {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        max-width: 50%;
+    }
+
+    footer .about-company .company_container h1 {
+        font-size: 2rem;
+        margin-bottom: 2px;
+    }
+
+    footer .about-company .company_container p {
+        font-size: 11px;
+    }
+
+    footer .about-company .company_container p:last-child {
+        margin-bottom: 10px;
+    }
+
+    footer .copyright {
+        text-align: center;
+    }
+
+    footer .copyright p{
+        font-size: 11px;
+    }
+}
+/*footer ends*********************************/

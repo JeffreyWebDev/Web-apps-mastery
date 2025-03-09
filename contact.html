@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/09050a93e1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/Main.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Jeffrey Furnishings</title>
+</head>
+<body>
+    <div class="main_header" style="height: 120vh;">
+        <video autoplay muted loop class="back_video" >
+            <source src="videos/videoHeader1 - Trim.mp4">
+        </video>
+
+        <!--Nav starts-->
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/JF_2.png" alt="Website's logo"></a>
+                <span>JeffreyFurnishings</span>
+            </div>
+            <div class="nav-menu" id="mainMenu">
+                <div class="main-menu">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <a href="product.html" class="btn-fill">Shop Now</a>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <!--Nav end-->
+    
+        <!----contact section starts----->
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            <p>If you have any questions, feel free to reach out to us using the form below or through our contact information.</p>
+            
+            <div class="contact-info">
+                <div class="info-item">
+                    <h2>Email Us</h2>
+                    <p><a href="mailto:info@example.com">chair123@gmail.com</a></p>
+                </div>
+                <div class="info-item">
+                    <h2>Call Us</h2>
+                    <p><a href="tel:+1234567890">+256 075 567 890</a></p>
+                </div>
+                <div class="info-item">
+                    <h2>Visit Us</h2>
+                    <p>123 Main Street, <br> Kampala, Kansanga, UK Mall</p>
+                </div>
+            </div>
+    
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Please enter your name right here" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Please enter your email right here" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="3" placeholder="Type a message right here" required></textarea>
+    
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+        <!----contact section ends----->
+
+
+        
+
+        <footer>
+            <div class="footer-flex">
+                <div class="logo footer-logo">
+                    <img src="images/JF_2.png" alt="">
+                    <span>JeffreyFurnishings</span>
+                </div>
+                <div class="about-company">
+                    <div class="company_container">
+                        <h1>About</h1>
+                        <p>News & Blog</p>
+                        <p>Features</p>
+                        <p>About US</p>
+                    </div>
+                    <div class="company_container">
+                        <h1>Company</h1>
+                        <p>How We Work</p>
+                        <p>Capital</p>
+                        <p>Security</p>
+                    </div>
+                    <div class="company_container"> 
+                        <h1>Support</h1>
+                        <p>FAQs</p>
+                        <p>Capital</p>
+                        <p>Contatc Us</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 JeffreyFurnishings. All Rights Reserved.</p>
+                <p>Designed by Jeffrey Faray.</p>
+            </div>
+        </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    
+    <script src="JS/carousel.js"></script>
+    <script src="JS/scroll_reveal.js"></script>
+    <script src="JS/video_scroll.js"></script>
+        
+    <script>
+        const mainMenu = document.getElementById("mainMenu");
+
+        function showMenu() {   
+            mainMenu.style.left = "0";
+        }
+
+        function hideMenu() {   
+            mainMenu.style.left = "100%";
+        }
+    </script>
+</body>
+</html>
