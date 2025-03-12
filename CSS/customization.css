@@ -59,13 +59,13 @@ section.customization video {
     }
 
     .content-container .content .main-heading {
-        font-size: 23px;
+        font-size: 43px;
     }
 
     .content-container .content .primary-heading {
-        font-size: 9px;
-        max-width: 180px;
-        line-height: 15px;
+        font-size: 20px;
+        max-width: 250px;
+        line-height: 25px;
     }
 }
 /* customization section end ****************************/
