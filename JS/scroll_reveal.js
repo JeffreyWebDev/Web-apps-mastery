@@ -41,9 +41,10 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 
     ScrollReveal().reveal(".main-heading, .primary-heading, .title", {
-        delay: 500,
+        delay: 300,
         origin: "bottom",
-        interval: 200
+        interval: 200,
+        // distance: "10px",
     })
 
     ScrollReveal().reveal(".slider-inner-01, .slider-inner-02, .slider-inner-03", {
